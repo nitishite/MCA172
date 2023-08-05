@@ -1,0 +1,328 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+.nav a i {
+    display: inline;
+    margin-right: 5px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid lightskyblue;
+    /* z-index: 10; */
+    width: 99vw;
+    overflow-x: hidden;
+}
+
+.header .name {
+    color: #fff;
+    background-color: #333;
+    /* padding-right: 200px; */
+    /* flex-basis: 200px; */
+    flex-grow: 1;
+    padding-right: 200px;
+    /* display: flex;
+    align-items:center;
+    justify-content:center; */
+    /* padding-right: 70px; */
+}
+
+.header .nav {
+    display: flex;
+    flex-grow: 2;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.header .nav a {
+    text-decoration: none;
+    /* padding: 10px 40px 10px 40px; */
+    font-size: 20px;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.header .nav a:hover {
+    /* text-decoration: underline overline; */
+    color: bisque;
+    transform: translateY(-5px);
+}
+
+.body {
+
+    position: sticky;
+    top: 9vh;
+    height: 100vh;
+    width: 98.75vw;
+    background: gray;
+    border-top: 3px solid palevioletred;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.body .logo {
+    display: flex;
+    justify-content: center;
+    flex-basis: 60%;
+    align-items: center;
+
+}
+
+.body .logo .image {
+    background-image: url("..\\1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 400px;
+    border-radius: 500px;
+    transition: 0.5s ease-in-out;
+    animation: hue 5s alternate infinite;
+    box-shadow: 5px 5px 5px #333;
+}
+
+.body .logo .image:hover {
+    /* border: 2px solid #fff; */
+    /* opacity: 0.5; */
+    height: 150px;
+    background: linear-gradient(45deg, red, yellow, green, blue);
+    box-shadow: 5px 5px 5px #333;
+}
+
+@keyframes hue {
+    to {
+        filter: hue-rotate(5turn);
+    }
+}
+
+.body .about {
+    /* padding-left: 200px; */
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    /* background-color: red; */
+
+}
+
+.body .about p {
+    /* margin: 10px; */
+    padding-top: 10px;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.gallery {
+    position: relative;
+    height: 100vh;
+    width: 98.75vw;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto;
+    /* animation: hue 5s alternate infinite; */
+}
+
+.gallery img {
+    height: 280px;
+    width: 300px;
+    margin: 20px 5px 5px 5px;
+    padding: 10px;
+    border: 2px solid #fff;
+    box-shadow: 10px 10px 10px #333;
+
+}
+
+
+.registration {
+    position: relative;
+    top: 20px;
+    height: 100vh;
+    width: 98.75vw;
+    background-image: linear-gradient(45deg, yellow, red, pink);
+    /* background-color: rgb(0, 0, 200); */
+
+}
+
+.registration form {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    height: 50%;
+    width: 65%;
+    background-image: linear-gradient(45deg, green, yellow, pink);
+    padding: 20px;
+    /* border: 10px 8px 5px 2px solid red; */
+    border-style: solid;
+    border-width: 10px 7px 2px 1px;
+    border-color: #fff;
+    border-radius: 10px 40px 5px 0;
+    box-shadow: 10px 10px 10px #333, 20px 20px 20px violet;
+    font-size: 16px;
+}
+
+.button .btn btn-primary {
+    /* text-align: center;
+   display:flex;
+   align-items:center;
+   justify-content:center;  */
+    margin-left: 100px;
+
+}
+
+.footer {
+    position: relative;
+    height: 100vh;
+    width: 98.7vw;
+    background-image: linear-gradient(45deg, green, yellow, pink);
+}
+
+.footer .box {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    height: 200px;
+    width: 60vw;
+    border: 2px solid green;
+    padding: 20px;
+}
+
+.footer .box a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+.footer .box i {
+    /* color: yellow; */
+    font-size: 20px;
+}
+
+.footer .box1 {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #333;
+    color: #fff;
+    /* border: 0 5px 5px 0 solid greenyellow; */
+    border: 2px solid yellow;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.carousel-item>img {
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    box-shadow: 10px 10px 10px #333;
+}
+
+
+.parallax {
+    /* Set a specific height for the parallax container */
+    /* Create the parallax scrolling effect */
+    position: relative;
+    height: 100vh;
+    width: 98.5vw;
+    background-image: url('..\\2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-content {
+    position: absolute;
+    top: 20vh;
+    left: 25vw;
+    padding: 80px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black inset, 20px 20px 20px yellow inset, 10px 10px 20px blue;
+    /* opacity: 0.5; */
+
+}
+
+.parallax-content a {
+    padding-left: 40px;
+    transition: 0.3s ease;
+
+}
+
+.parallax-content a:hover {
+    color: palevioletred;
+    transform: translateY(-5px);
+
+}
+
+.arrow a {
+    position: absolute;
+    bottom: 50px;
+    right: 60px;
+}
+
+.skills {
+    position: relative;
+    height: 100vh;
+    width: 99vw;
+    background: linear-gradient(45deg, blue, black, green);
+    padding: 50px;
+}
+
+.skills .skill_data {
+    padding: 10px;
+    /* margin: 10px; */
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    right: 20%;
+    height: 50%;
+    border-style: solid;
+    border-color: palevioletred;
+    border-width: 8px 4.5px 2.5px 1px;
+}
+
+.skills .skill_data:hover {
+    border-color: purple;
+}
+
+.skills .skill_data h1 {
+    color: #fff;
+}
+
+.skills .skill_data p {
+    color: #fff;
+    /* text-align: center; */
+    padding-top: 10px;
+}
