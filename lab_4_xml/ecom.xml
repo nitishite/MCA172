@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE products SYSTEM "ecom.dtd">
+<?xml-model href="ecom.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<products>
+    <product pid="1">
+        <productname>Samsung 4K TV</productname>
+        <price>499</price>
+        <quantity>100</quantity>
+        <category>Electronics</category>
+    </product>
+    <product pid="2">
+        <productname>Levi's Jeans</productname>
+        <price>59</price>
+        <quantity>300</quantity>
+        <category>Clothing</category>
+    </product>
+    <product pid="3">
+        <productname>Harry Potter and the Sorcerer's Stone</productname>
+        <price>12</price>
+        <quantity>500</quantity>
+        <category>Books</category>
+    </product>
+</products>
