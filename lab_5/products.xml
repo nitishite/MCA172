@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="transform.xsl" type="text/xsl"?>
+<products xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="product_schema.xsd">
+    <product>
+        <id>1</id>
+        <name>MacBook Air</name>
+        <price>799</price>
+        <description>The best laptop you can get for spending this much.</description>
+    </product>
+    <product>
+        <id>2</id>
+        <name>iPhone 14</name>
+        <price>699</price>
+        <description>The second best non-android phone you can have.</description>
+    </product>
+    <product>
+        <id>3</id>
+        <name>AirPods</name>
+        <price>199</price>
+        <description>The best earphones you'll ever wear.</description>
+    </product>
+</products>
