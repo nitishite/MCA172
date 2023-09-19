@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="num.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="num.xsl" type="text/xsl"?>
+<Dogs>
+    <Dog did="d1">
+        <breed>Golden Retriever</breed>
+        <color>Golden</color>
+        <country>United States</country>
+    </Dog>
+    <Dog did="d2">
+        <breed>German Shepherd</breed>
+        <color>Black and Tan</color>
+        <country>Germany</country>
+    </Dog>
+    <Dog did="d3">
+        <breed>Poodle</breed>
+        <color>White</color>
+        <country>France</country>
+    </Dog>
+    <Dog did="d4">
+        <breed>Bulldog</breed>
+        <color>Brindle</color>
+        <country>United Kingdom</country>
+    </Dog>
+    <Dog did="d5">
+        <breed>Labrador Retriever</breed>
+        <color>Yellow</color>
+        <country>Canada</country>
+    </Dog>
+    <Dog did="d6">
+        <breed>Boxer</breed>
+        <color>Fawn</color>
+        <country>Germany</country>
+    </Dog>
+    <Dog did="d7">
+        <breed>Beagle</breed>
+        <color>Tri-color</color>
+        <country>United Kingdom</country>
+    </Dog>
+    <Dog did="d8">
+        <breed>Dachshund</breed>
+        <color>Red</color>
+        <country>Germany</country>
+    </Dog>
+    <Dog did="d9">
+        <breed>Doberman Pinscher</breed>
+        <color>Black and Tan</color>
+        <country>Germany</country>
+    </Dog>
+    <Dog did="d10">
+        <breed>Rottweiler</breed>
+        <color>Black and Tan</color>
+        <country>Germany</country>
+    </Dog>
+
+</Dogs>            

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Dogs (Dog+)>
+<!ELEMENT Dogs (breed,color,country)>
+<!ELEMENT breed (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT contry (#PCDATA)>
+<!ATTLIST Dog did ID #REQUIRED>
