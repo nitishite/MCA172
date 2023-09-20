@@ -1,0 +1,26 @@
+.num {
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    box-shadow: 5px 5px 5px red, 10px 10px 5px yellow, 12px 15px 5px blue;
+    background-color: rgb(0, 222, 0);
+
+}
+
+.nu {
+    border-radius: 10px;
+    border: 2px solid #fff;
+    box-shadow: 5px 5px 10px red;
+    margin: 10px;
+}
+
+#productList {
+    margin: 25px 10px 10px 10px;
+    padding: 20px 10px 10px 50px;
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: -10px 10px 10px #333;
+    box-shadow: 10px 10px 10px #333 inset;
+}
