@@ -1,0 +1,100 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="lesson.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- nav part -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">LingoQuest</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Featured Language</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lesson.html">Lesson</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="progress.html">Progress</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="registration.html">Registration</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="quiz.html">Quiz</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown link
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="sanskrit.html#">Sanskrit</a></li>
+                            <li><a class="dropdown-item" href="english.html">English</a></li>
+                            <li><a class="dropdown-item" href="german.html">German</a></li>
+                            <li><a class="dropdown-item" href="spanish.html">Spanish</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Page content goes here -->
+    <header>
+        <h1>LingoQuest</h1>
+        <p>Great source of learning materials</p>
+    </header>
+    <section class="lesson-content">
+        <h2>Introduction</h2>
+        <!-- <p>This is the introductory text of the lesson.</p> -->
+        <p style="padding-left:10px;">A large set of contents that contains interactive audio, video, assignments,
+            quizes
+            and many more.</p>
+
+        <h2>Audio</h2>
+        <audio controls>
+            <source src="lesson-audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h2>Interactive Exercises</h2>
+        <!-- Include interactive exercises here -->
+        <ul>
+            <li>Exercise 1</li>
+            <li>Exercise 2</li>
+            <li>Exercise 3</li>
+            <li>Exercise 4</li>
+            <!-- <li>Exercise 5</li> -->
+        </ul>
+        <nav>
+            <a href="previous-lesson.html"><button>Previous Lesson</button></a>
+            <a href="quiz.html"><button>Next Lesson</button></a>
+        </nav>
+    </section>
+
+
+
+</body>
+
+</html>

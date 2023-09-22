@@ -1,0 +1,212 @@
+/* * {
+    padding:0%;
+    margin:0%;
+} */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* .navbar-nav { */
+#nav {
+    background-color: red;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background-color: rgb(100, 250, 0);
+
+}
+
+#navy {
+    /* background-color: rgb(100, 250, 0); */
+}
+
+.body {
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(145deg, purple, red, blue);
+}
+
+@media only screen and (max-width: 600px) {
+    .body {
+        flex-direction: column;
+    }
+}
+
+
+h1 {
+    font-size: 90px;
+    -webkit-text-stroke: 2px yellow;
+
+}
+
+.body1 {
+    width: 50%;
+}
+
+.body1 h1 {
+    text-align: center;
+}
+
+.body2 {
+    width: 50%;
+
+}
+
+.body2 p {
+    color: white;
+    margin-right: 20px
+}
+
+/* 
+.body1 {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+
+}
+
+.body2 {
+    position: absolute;
+    top: 30%;
+    right: 20%;
+
+} */
+
+.content {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(45deg, green, red, purple);
+
+}
+
+.content_card {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    /* margin: 10px; */
+
+}
+
+#nu {
+    margin-bottom: 10px;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-section {
+    margin: 0 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #007bff;
+}
+
+address p {
+    margin: 0;
+}
+
+/* Optional: Style social media icons if present */
+.footer-section ul.social-media-icons {
+    list-style-type: none;
+}
+
+.footer-section ul.social-media-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-section ul.social-media-icons li a {
+    font-size: 24px;
+    color: #fff;
+}
+
+
+
+.forum {
+    margin: 50px;
+    padding: 20px;
+    border: 2px solid red;
+    background-image: linear-gradient(45deg, red, yellow, purple);
+}
+
+.prog {
+    margin: 50px;
+    padding: 20px;
+}
+
+.quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-question {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.answer-choices {
+    list-style-type: none;
+    padding: 0;
+}
+
+.answer-choices li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.quiz {
+    padding: 10px;
+    margin: 50px;
+    background-image: linear-gradient(45deg, red, yellow, purple);
+}
+
+.progress {
+    margin: 10px;
+}

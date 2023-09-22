@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    /* background-image: linear-gradient(45deg, red, green, yellow); */
+    /* z-index: 10; */
+}
+
+.lesson-content {
+    height: auto;
+    background-image: linear-gradient(45deg, green, red, yellow);
+    color: #fff;
+
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 28px;
+    /* -webkit-text-stroke: 2px yellow; */
+}
+
+.lesson-content {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.lesson-content h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.lesson-content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+audio {
+    width: 100%;
+}
+
+nav a {
+    /* font-size: 20px; */
+    text-decoration: none;
+    padding-left: 3px;
+    padding-right: 5px;
+    margin-left: 10px;
+    color: aqua;
+}
+
+nav a:hover {
+    color: rgb(0, 200, 0);
+    text-decoration: underline;
+}
+
+button {
+    /* border-radius: 30px; */
+    box-shadow: 10px 10px 10px #333;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #333;
+}
